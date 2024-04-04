@@ -1,0 +1,42 @@
+.formula-input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    .tag {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+
+      input {
+        border: none;
+        outline: none;
+      }
+
+      button {
+        margin-left: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .autocomplete {
+    margin-top: 10px;
+
+    div {
+      padding: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}

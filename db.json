@@ -1,0 +1,9 @@
+{
+  "suggestions": [
+    { "id": "1", "name": "Payment Processing Fees" },
+    { "id": "2", "name": "Payroll bonus G&A" },
+    { "id": "3", "name": "SUM" },
+    { "id": "4", "name": "Payroll bonus S&M" },
+    { "id": "5", "name": "Salary increase month" }
+  ]
+}
